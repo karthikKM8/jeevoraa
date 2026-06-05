@@ -1,4 +1,8 @@
 {
-  "framework": "vite",
-  "buildCommand": "npm run build"
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/__handler"
+    }
+  ]
 }
