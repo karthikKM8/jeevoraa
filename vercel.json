@@ -2,8 +2,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
-    "api/__handler.ts": {
-      "runtime": "nodejs20.x",
+    "api/**": {
       "maxDuration": 60,
       "memory": 1024
     }
