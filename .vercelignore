@@ -7,7 +7,6 @@ docs
 .lovable
 .tanstack
 bun.lock
-.tanstack
 .prettierignore
-.tanstack/router.config.json
 components.json
+api
